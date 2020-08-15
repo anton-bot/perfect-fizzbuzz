@@ -1,0 +1,30 @@
+{
+  "name": "perfect-fizzbuzz",
+  "version": "1.0.0",
+  "description": "A perfect, functional, testable FizzBuzz example.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node index.ts",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anton-bot/perfect-fizzbuzz.git"
+  },
+  "keywords": [
+    "fizzbuzz"
+  ],
+  "author": "Anton Ivanov",
+  "license": "Unlicense",
+  "bugs": {
+    "url": "https://github.com/anton-bot/perfect-fizzbuzz/issues"
+  },
+  "homepage": "https://github.com/anton-bot/perfect-fizzbuzz#readme",
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "jest": "^26.4.0",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^8.10.2",
+    "typescript": "^4.0.1-rc"
+  }
+}
